@@ -11,10 +11,10 @@ all: $(OBJ)
 	@echo Done.
 
 $(OUT_PATH)/%.CHR: $(SRC_PATH)/%.SF3CHR
-	$(CHRTOOL) $(CHRTOOL_PARAMS) compile $< --output=$@
+	@$(CHRTOOL) $(CHRTOOL_PARAMS) compile $< --output=$@
 
 $(OUT_PATH)/%.CHP: $(SRC_PATH)/%.SF3CHP
-	$(CHRTOOL) $(CHRTOOL_PARAMS) compile $< --output=$@
+	@$(CHRTOOL) $(CHRTOOL_PARAMS) compile $< --output=$@
 
 clean:
 	@echo Removing *.CHR, *.CHP from $(OUT_PATH)...
