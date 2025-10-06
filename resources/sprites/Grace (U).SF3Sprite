@@ -424,7 +424,7 @@
               "Parameter": 0
             }
           ],
-          "Ilde (Should be Nodding)": [
+          "Idle (Should be Nodding)": [
             {
               "Command": "SetDirectionCount",
               "Parameter": 17
