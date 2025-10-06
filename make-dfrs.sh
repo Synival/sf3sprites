@@ -1,19 +1,28 @@
 #!/bin/bash
 
+# =====================================================================================================================
+# Settings
+# =====================================================================================================================
+
+# SF3 original file locations (as Linux path)
+DIR_SCENARIO1="game-files/scenario1"
+DIR_SCENARIO2="game-files/scenario2"
+DIR_SCENARIO3="game-files/scenario3"
+DIR_PREMIUM_DISK="game-files/premium-disk"
+
+# SF3 original file locations (as Windows path)
+# (the same as Linux paths by default)
+DIR_SCENARIO1_WIN=$DIR_SCENARIO1_WIN
+DIR_SCENARIO2_WIN=$DIR_SCENARIO2_WIN
+DIR_SCENARIO3_WIN=$DIR_SCENARIO3_WIN
+DIR_PREMIUM_DISK_WIN=$DIR_PREMIUM_DISK_WIN
+
+# =====================================================================================================================
+# Internals
+# =====================================================================================================================
+
 # Clean existing DFR files.
 rm dfrs/*/*.DFR
-
-# Linux paths are necessary for 'diff'...
-DIR_SCENARIO1=/mnt/d
-DIR_SCENARIO2=/mnt/e
-DIR_SCENARIO3=/mnt/f
-DIR_PREMIUM_DISK=/mnt/g
-
-# ...and Windows paths are necessary for 'dfrtool.exe'.
-DIR_SCENARIO1_WIN="D:"
-DIR_SCENARIO2_WIN="E:"
-DIR_SCENARIO3_WIN="F:"
-DIR_PREMIUM_DISK_WIN="G:"
 
 # Produces DFRs, with the following inputs:
 #   DIR_NEW:      where the new CHP/CHR files are located

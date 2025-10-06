@@ -6,10 +6,9 @@
 
 Before compiling:
 
-1. Update SF3 disc directories in `fetch-resources.sh` 
-2. Run `fetch-resources.sh`
-
-**NOTE: `fetch-resouces.sh` is set up to extract all the resources in one go. You'll have to do some editing if you want to extract them one disc at a time, but it's not too bad.**
+1. Copy files from each disc desirable to the `game-files/<disc>` folder
+2. Update SF3 disc directories in `fetch-resources.sh` 
+3. Run `fetch-resources.sh`
 
 To compile:
 
