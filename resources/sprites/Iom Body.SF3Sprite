@@ -1,0 +1,66 @@
+{
+  "Name": "Iom Body",
+  "Width": 72,
+  "Height": 56,
+  "Spritesheets": {
+    "72x56": {
+      "SpriteID": 323,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Idle 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        },
+        "Idle 2": {
+          "Directions": 4,
+          "SpritesheetX": 72,
+          "SpritesheetY": 0
+        },
+        "Idle 3": {
+          "Directions": 4,
+          "SpritesheetX": 144,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "Idle": [
+            {
+              "Frame": "Idle 1",
+              "Duration": 12
+            },
+            {
+              "Frame": "Idle 2",
+              "Duration": 10
+            },
+            {
+              "Frame": "Idle 3",
+              "Duration": 10
+            },
+            {
+              "Frame": "Idle 2",
+              "Duration": 10
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame": [
+            {
+              "Frame": "Idle 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

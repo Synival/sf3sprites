@@ -1,0 +1,249 @@
+{
+  "Name": "Firey Poof",
+  "Width": 32,
+  "Height": 56,
+  "Spritesheets": {
+    "32x56": {
+      "SpriteID": 392,
+      "VerticalOffset": 0,
+      "Unknown0x08": 40,
+      "CollisionSize": 24,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Poofing 1": {
+          "Directions": 1,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Poofing 10": {
+          "Directions": 1,
+          "SpritesheetX": 32,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Poofing 2": {
+          "Directions": 1,
+          "SpritesheetX": 64,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Poofing 3": {
+          "Directions": 1,
+          "SpritesheetX": 96,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Poofing 4": {
+          "Directions": 1,
+          "SpritesheetX": 128,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Poofing 5": {
+          "Directions": 1,
+          "SpritesheetX": 160,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Poofing 6": {
+          "Directions": 1,
+          "SpritesheetX": 192,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Poofing 7": {
+          "Directions": 1,
+          "SpritesheetX": 224,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Poofing 8": {
+          "Directions": 1,
+          "SpritesheetX": 256,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Poofing 9": {
+          "Directions": 1,
+          "SpritesheetX": 288,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "RepeatedPoofs": [
+            {
+              "Frame": "Poofing 1",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 2",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 3",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 4",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 5",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 6",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 7",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 8",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 9",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 10",
+              "Duration": 1
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "RepeatedPoofs (Fast)": [
+            {
+              "Frame": "Poofing 1",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 2",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 3",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 4",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 5",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 6",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 7",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 8",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 9",
+              "Duration": 1
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 4
+            }
+          ],
+          "ShrinkToFireball": [
+            {
+              "Frame": "Poofing 3",
+              "Duration": 2
+            },
+            {
+              "Frame": "Poofing 2",
+              "Duration": 2
+            },
+            {
+              "Frame": "Poofing 1",
+              "Duration": 2
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "SinglePoof": [
+            {
+              "Frame": "Poofing 1",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 2",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 3",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 4",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 5",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 6",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 7",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 8",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 9",
+              "Duration": 1
+            },
+            {
+              "Frame": "Poofing 10",
+              "Duration": 1
+            },
+            {
+              "Command": "GotoAnimation",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Fireball)": [
+            {
+              "Frame": "Poofing 1",
+              "Duration": 1
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (Two Pixels)": [
+            {
+              "Frame": "Poofing 10",
+              "Duration": 1
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

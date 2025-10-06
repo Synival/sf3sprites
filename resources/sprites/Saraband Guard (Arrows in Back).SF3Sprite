@@ -1,0 +1,106 @@
+{
+  "Name": "Saraband Guard (Arrows in Back)",
+  "Width": 48,
+  "Height": 40,
+  "Spritesheets": {
+    "48x40": {
+      "SpriteID": 81,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0499878,
+      "FrameGroups": {
+        "OnGround 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 40
+        },
+        "OnGround 2": {
+          "S": {
+            "SpritesheetX": 48,
+            "SpritesheetY": 0
+          }
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "StillFrame (OnGround, Repeat 1)": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "OnGround 2",
+                  "Direction": "S"
+                }
+              },
+              "Duration": 4
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (OnGround, Repeat 2)": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "OnGround 2",
+                  "Direction": "S"
+                }
+              },
+              "Duration": 5
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (OnGround)": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "OnGround 2",
+                  "Direction": "S"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        },
+        "4": {
+          "StillFrame (OnGround, Repeat 1)": [
+            {
+              "Frame": "OnGround 1",
+              "Duration": 4
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (OnGround, Repeat 2)": [
+            {
+              "Frame": "OnGround 1",
+              "Duration": 5
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (OnGround)": [
+            {
+              "Frame": "OnGround 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

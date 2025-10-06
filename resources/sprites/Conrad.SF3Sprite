@@ -1,0 +1,387 @@
+{
+  "Name": "Conrad",
+  "Width": 40,
+  "Height": 40,
+  "Spritesheets": {
+    "40x40": {
+      "SpriteID": 338,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "GettingKnockedOut 1": {
+          "SSE": {
+            "SpritesheetX": 0,
+            "SpritesheetY": 0
+          }
+        },
+        "GettingKnockedOut 2": {
+          "SSE": {
+            "SpritesheetX": 40,
+            "SpritesheetY": 0
+          }
+        },
+        "GettingKnockedOut 3": {
+          "SSE": {
+            "SpritesheetX": 80,
+            "SpritesheetY": 0
+          }
+        },
+        "Idle (SittingInChair) 1": {
+          "Directions": 4,
+          "SpritesheetX": 120,
+          "SpritesheetY": 0
+        },
+        "Nodding 1": {
+          "SSE": {
+            "SpritesheetX": 160,
+            "SpritesheetY": 0
+          }
+        },
+        "Nodding 2": {
+          "SSE": {
+            "SpritesheetX": 200,
+            "SpritesheetY": 0
+          }
+        },
+        "ShakingHead 1": {
+          "SSE": {
+            "SpritesheetX": 240,
+            "SpritesheetY": 0
+          }
+        },
+        "ShakingHead 2": {
+          "SSE": {
+            "SpritesheetX": 280,
+            "SpritesheetY": 0
+          }
+        },
+        "Walking 1": {
+          "Directions": 4,
+          "SpritesheetX": 320,
+          "SpritesheetY": 0
+        },
+        "Walking 2": {
+          "Directions": 4,
+          "SpritesheetX": 360,
+          "SpritesheetY": 0
+        },
+        "Walking 3": {
+          "Directions": 4,
+          "SpritesheetX": 400,
+          "SpritesheetY": 0
+        },
+        "Walking 4": {
+          "Directions": 4,
+          "SpritesheetX": 440,
+          "SpritesheetY": 0
+        },
+        "Walking 5": {
+          "Directions": 4,
+          "SpritesheetX": 480,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "GettingKnockedOut": [
+            {
+              "Command": "SetDirectionCount",
+              "Parameter": 1
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Idle (SittingInChair) 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 2
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "ShakingHead 2",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 3
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "GettingKnockedOut 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 6
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "GettingKnockedOut 2",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 4
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "GettingKnockedOut 3",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 6
+            },
+            {
+              "Command": "GotoAnimation",
+              "Parameter": 3
+            }
+          ],
+          "Nodding": [
+            {
+              "Command": "SetDirectionCount",
+              "Parameter": 1
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Idle (SittingInChair) 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 6
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Nodding 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 6
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Nodding 2",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 6
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Nodding 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 6
+            },
+            {
+              "Command": "GotoAnimation",
+              "Parameter": 0
+            }
+          ],
+          "ShakingHead": [
+            {
+              "Command": "SetDirectionCount",
+              "Parameter": 1
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Idle (SittingInChair) 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 2
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "ShakingHead 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 6
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Idle (SittingInChair) 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 6
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "ShakingHead 2",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 6
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Idle (SittingInChair) 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 6
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "ShakingHead 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 6
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Idle (SittingInChair) 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 6
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "ShakingHead 2",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 6
+            },
+            {
+              "Command": "GotoAnimation",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (KnockedOut)": [
+            {
+              "Command": "SetDirectionCount",
+              "Parameter": 1
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "GettingKnockedOut 3",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        },
+        "4": {
+          "StillFrame (SittingInChair, Repeat)": [
+            {
+              "Frame": "Idle (SittingInChair) 1",
+              "Duration": 10
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (SittingInChair)": [
+            {
+              "Frame": "Idle (SittingInChair) 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "Walking": [
+            {
+              "Frame": "Walking 1",
+              "Duration": 5
+            },
+            {
+              "Frame": "Walking 2",
+              "Duration": 5
+            },
+            {
+              "Frame": "Walking 3",
+              "Duration": 5
+            },
+            {
+              "Frame": "Walking 4",
+              "Duration": 5
+            },
+            {
+              "Frame": "Walking 2",
+              "Duration": 5
+            },
+            {
+              "Frame": "Walking 5",
+              "Duration": 5
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "Walking (Final NNE Frame Missing)": [
+            {
+              "Frame": "Walking 1",
+              "Duration": 5
+            },
+            {
+              "Frame": "Walking 2",
+              "Duration": 5
+            },
+            {
+              "Frame": "Walking 3",
+              "Duration": 5
+            },
+            {
+              "Frame": {
+                "SSE": {
+                  "Frame": "Walking 4",
+                  "Direction": "SSE"
+                },
+                "ESE": {
+                  "Frame": "Walking 4",
+                  "Direction": "ESE"
+                },
+                "ENE": {
+                  "Frame": "Walking 4",
+                  "Direction": "ENE"
+                }
+              },
+              "Duration": 5
+            },
+            {
+              "Frame": "Walking 2",
+              "Duration": 5
+            },
+            {
+              "Frame": "Walking 5",
+              "Duration": 5
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "Name": "None",
+  "Width": 40,
+  "Height": 40,
+  "Spritesheets": {
+    "0x0": {
+      "SpriteID": 0,
+      "VerticalOffset": 0,
+      "Unknown0x08": 0,
+      "CollisionSize": 0,
+      "Scale": 0.0,
+      "FrameGroups": {},
+      "AnimationByDirections": {
+        "0": {
+          "Nothing (F2,00)": [
+            {
+              "Command": "Stop"
+            }
+          ],
+          "Nothing (FE,00)": [
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "Nothing (FF,00)": [
+            {
+              "Command": "GotoAnimation",
+              "Parameter": 0
+            }
+          ],
+          "Nothing (FF,01)": [
+            {
+              "Command": "GotoAnimation",
+              "Parameter": 1
+            }
+          ],
+          "Nothing (FF,05)": [
+            {
+              "Command": "GotoAnimation",
+              "Parameter": 5
+            }
+          ],
+          "Nothing (Broken, No Frames)": []
+        }
+      }
+    }
+  }
+}

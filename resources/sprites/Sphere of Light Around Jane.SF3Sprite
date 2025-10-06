@@ -1,0 +1,34 @@
+{
+  "Name": "Sphere of Light Around Jane",
+  "Width": 40,
+  "Height": 48,
+  "Spritesheets": {
+    "40x48": {
+      "SpriteID": 401,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 48,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Light 1": {
+          "Directions": 1,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "StillFrame (Light)": [
+            {
+              "Frame": "Light 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "Name": "Pendolf (P1) (Life Ring)",
+  "Width": 40,
+  "Height": 32,
+  "Spritesheets": {
+    "40x32": {
+      "SpriteID": 52,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Bobbing 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0,
+          "Coding": "Ignore"
+        },
+        "Bobbing 2": {
+          "Directions": 4,
+          "SpritesheetX": 40,
+          "SpritesheetY": 0,
+          "Coding": "Ignore"
+        },
+        "Bobbing 3": {
+          "Directions": 4,
+          "SpritesheetX": 80,
+          "SpritesheetY": 0,
+          "Coding": "Ignore"
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "Bobbing": [
+            {
+              "Frame": "Bobbing 1",
+              "Duration": 4
+            },
+            {
+              "Frame": "Bobbing 2",
+              "Duration": 2
+            },
+            {
+              "Frame": "Bobbing 3",
+              "Duration": 4
+            },
+            {
+              "Frame": "Bobbing 2",
+              "Duration": 2
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame": [
+            {
+              "Frame": "Bobbing 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

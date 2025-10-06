@@ -1,0 +1,134 @@
+{
+  "Name": "Man Bathing in Hot Springs",
+  "Width": 40,
+  "Height": 40,
+  "Spritesheets": {
+    "40x40": {
+      "SpriteID": 142,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "OccasionallyWipingForehead 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0,
+          "Coding": "Ignore"
+        },
+        "OccasionallyWipingForehead 2": {
+          "Directions": 4,
+          "SpritesheetX": 40,
+          "SpritesheetY": 0,
+          "Coding": "Ignore"
+        },
+        "OccasionallyWipingForehead 3": {
+          "Directions": 4,
+          "SpritesheetX": 80,
+          "SpritesheetY": 0,
+          "Coding": "Ignore"
+        },
+        "OccasionallyWipingForehead 4": {
+          "Directions": 4,
+          "SpritesheetX": 120,
+          "SpritesheetY": 0,
+          "Coding": "Ignore"
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "OccasionallyWipingForehead": [
+            {
+              "Frame": "OccasionallyWipingForehead 1",
+              "Duration": 300
+            },
+            {
+              "Frame": "OccasionallyWipingForehead 2",
+              "Duration": 3
+            },
+            {
+              "Frame": "OccasionallyWipingForehead 3",
+              "Duration": 6
+            },
+            {
+              "Frame": "OccasionallyWipingForehead 4",
+              "Duration": 6
+            },
+            {
+              "Frame": "OccasionallyWipingForehead 3",
+              "Duration": 6
+            },
+            {
+              "Frame": "OccasionallyWipingForehead 4",
+              "Duration": 6
+            },
+            {
+              "Frame": "OccasionallyWipingForehead 3",
+              "Duration": 6
+            },
+            {
+              "Frame": "OccasionallyWipingForehead 2",
+              "Duration": 3
+            },
+            {
+              "Frame": "OccasionallyWipingForehead 1",
+              "Duration": 150
+            },
+            {
+              "Frame": "OccasionallyWipingForehead 2",
+              "Duration": 3
+            },
+            {
+              "Frame": "OccasionallyWipingForehead 3",
+              "Duration": 7
+            },
+            {
+              "Frame": "OccasionallyWipingForehead 4",
+              "Duration": 7
+            },
+            {
+              "Frame": "OccasionallyWipingForehead 3",
+              "Duration": 7
+            },
+            {
+              "Frame": "OccasionallyWipingForehead 2",
+              "Duration": 5
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Still)": [
+            {
+              "Frame": "OccasionallyWipingForehead 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (Wiping Forehead, Repeat)": [
+            {
+              "Frame": "OccasionallyWipingForehead 3",
+              "Duration": 4
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Wiping Forehead)": [
+            {
+              "Frame": "OccasionallyWipingForehead 3",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

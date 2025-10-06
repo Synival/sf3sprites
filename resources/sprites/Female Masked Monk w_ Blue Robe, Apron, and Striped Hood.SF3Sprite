@@ -1,0 +1,92 @@
+{
+  "Name": "Female Masked Monk w/ Blue Robe, Apron, and Striped Hood",
+  "Width": 40,
+  "Height": 40,
+  "Spritesheets": {
+    "40x40": {
+      "SpriteID": 588,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Walking 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        },
+        "Walking 2": {
+          "Directions": 4,
+          "SpritesheetX": 40,
+          "SpritesheetY": 0
+        },
+        "Walking 3": {
+          "Directions": 4,
+          "SpritesheetX": 80,
+          "SpritesheetY": 0
+        },
+        "Walking 4": {
+          "Directions": 4,
+          "SpritesheetX": 120,
+          "SpritesheetY": 0
+        },
+        "Walking 5": {
+          "Directions": 4,
+          "SpritesheetX": 160,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "StillFrame": [
+            {
+              "Frame": "Walking 3",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "Walking": [
+            {
+              "Frame": "Walking 1",
+              "Duration": 4
+            },
+            {
+              "Frame": "Walking 2",
+              "Duration": 4
+            },
+            {
+              "Frame": "Walking 3",
+              "Duration": 4
+            },
+            {
+              "Frame": "Walking 4",
+              "Duration": 4
+            },
+            {
+              "Frame": "Walking 5",
+              "Duration": 4
+            },
+            {
+              "Frame": "Walking 4",
+              "Duration": 4
+            },
+            {
+              "Frame": "Walking 3",
+              "Duration": 4
+            },
+            {
+              "Frame": "Walking 2",
+              "Duration": 4
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

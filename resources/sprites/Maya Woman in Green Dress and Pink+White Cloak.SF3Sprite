@@ -1,0 +1,66 @@
+{
+  "Name": "Maya Woman in Green Dress and Pink+White Cloak",
+  "Width": 40,
+  "Height": 40,
+  "Spritesheets": {
+    "40x40": {
+      "SpriteID": 568,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Walking 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        },
+        "Walking 2": {
+          "Directions": 4,
+          "SpritesheetX": 40,
+          "SpritesheetY": 0
+        },
+        "Walking 3": {
+          "Directions": 4,
+          "SpritesheetX": 80,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "StillFrame": [
+            {
+              "Frame": "Walking 2",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "Walking": [
+            {
+              "Frame": "Walking 1",
+              "Duration": 6
+            },
+            {
+              "Frame": "Walking 2",
+              "Duration": 6
+            },
+            {
+              "Frame": "Walking 3",
+              "Duration": 6
+            },
+            {
+              "Frame": "Walking 2",
+              "Duration": 6
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

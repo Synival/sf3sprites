@@ -1,0 +1,34 @@
+{
+  "Name": "Fey Wings (Big)",
+  "Width": 128,
+  "Height": 128,
+  "Spritesheets": {
+    "128x128": {
+      "SpriteID": 395,
+      "VerticalOffset": 0,
+      "Unknown0x08": 112,
+      "CollisionSize": 96,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Idle 1": {
+          "Directions": 2,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "TwoNoFlip": {
+          "StillFrame (Idle)": [
+            {
+              "Frame": "Idle 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

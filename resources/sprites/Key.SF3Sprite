@@ -1,0 +1,41 @@
+{
+  "Name": "Key",
+  "Width": 40,
+  "Height": 40,
+  "Spritesheets": {
+    "40x40": {
+      "SpriteID": 161,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0499878,
+      "FrameGroups": {
+        "Key 1": {
+          "SSE": {
+            "SpritesheetX": 0,
+            "SpritesheetY": 0
+          }
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "StillFrame (Should be 1 Direction)": [
+            {
+              "Frame": {
+                "SSE": {
+                  "Frame": "Key 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

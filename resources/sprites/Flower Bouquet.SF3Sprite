@@ -1,0 +1,44 @@
+{
+  "Name": "Flower Bouquet",
+  "Width": 40,
+  "Height": 40,
+  "Spritesheets": {
+    "40x40": {
+      "SpriteID": 151,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "OnGround 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "StillFrame (OnGround, Repeat)": [
+            {
+              "Frame": "OnGround 1",
+              "Duration": 10
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (OnGround)": [
+            {
+              "Frame": "OnGround 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "Name": "Mad Garvin",
+  "Width": 48,
+  "Height": 48,
+  "Spritesheets": {
+    "48x48": {
+      "SpriteID": 382,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Collapsing 1": {
+          "SSE": {
+            "SpritesheetX": 0,
+            "SpritesheetY": 0
+          }
+        },
+        "Collapsing 2": {
+          "SSE": {
+            "SpritesheetX": 48,
+            "SpritesheetY": 0
+          }
+        },
+        "Collapsing 3": {
+          "SSE": {
+            "SpritesheetX": 96,
+            "SpritesheetY": 0
+          }
+        },
+        "GettingUpFromGround 1": {
+          "SSE": {
+            "SpritesheetX": 144,
+            "SpritesheetY": 0
+          }
+        },
+        "GettingUpFromGround 2": {
+          "SSE": {
+            "SpritesheetX": 192,
+            "SpritesheetY": 0
+          }
+        },
+        "GettingUpFromGround 3": {
+          "SSE": {
+            "SpritesheetX": 240,
+            "SpritesheetY": 0
+          }
+        },
+        "Idle (Battle) 1": {
+          "Directions": 4,
+          "SpritesheetX": 288,
+          "SpritesheetY": 0
+        },
+        "Idle (Battle) 2": {
+          "Directions": 4,
+          "SpritesheetX": 336,
+          "SpritesheetY": 0
+        },
+        "Idle (Battle) 3": {
+          "Directions": 4,
+          "SpritesheetX": 384,
+          "SpritesheetY": 0
+        },
+        "Idle (Battle) 4": {
+          "SSE": {
+            "SpritesheetX": 432,
+            "SpritesheetY": 0
+          }
+        },
+        "Idle (Battle) 5": {
+          "SSE": {
+            "SpritesheetX": 480,
+            "SpritesheetY": 0
+          }
+        },
+        "Idle (Battle) 6": {
+          "SSE": {
+            "SpritesheetX": 528,
+            "SpritesheetY": 0
+          }
+        },
+        "Idle (Field) 1": {
+          "Directions": 4,
+          "SpritesheetX": 576,
+          "SpritesheetY": 0
+        },
+        "Idle (Field) 2": {
+          "Directions": 4,
+          "SpritesheetX": 624,
+          "SpritesheetY": 0
+        },
+        "Idle (Field) 3": {
+          "Directions": 4,
+          "SpritesheetX": 672,
+          "SpritesheetY": 0
+        },
+        "Nodding 1": {
+          "Directions": 4,
+          "SpritesheetX": 720,
+          "SpritesheetY": 0
+        },
+        "Nodding 2": {
+          "Directions": 4,
+          "SpritesheetX": 768,
+          "SpritesheetY": 0
+        },
+        "OnGround 1": {
+          "SSE": {
+            "SpritesheetX": 816,
+            "SpritesheetY": 0
+          }
+        },
+        "ShakingHead 1": {
+          "Directions": 4,
+          "SpritesheetX": 864,
+          "SpritesheetY": 0
+        },
+        "ShakingHead 2": {
+          "Directions": 4,
+          "SpritesheetX": 912,
+          "SpritesheetY": 0
+        },
+        "Walking 1": {
+          "Directions": 4,
+          "SpritesheetX": 960,
+          "SpritesheetY": 0
+        },
+        "Walking 2": {
+          "Directions": 4,
+          "SpritesheetX": 1008,
+          "SpritesheetY": 0
+        },
+        "Walking 3": {
+          "Directions": 4,
+          "SpritesheetX": 1056,
+          "SpritesheetY": 0
+        },
+        "Walking 4": {
+          "Directions": 4,
+          "SpritesheetX": 1104,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "Collapsing": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Collapsing 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Collapsing 2",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 6
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Collapsing 3",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 5
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "OnGround 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "GettingUpFromGround": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "OnGround 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 40
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "GettingUpFromGround 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 16
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "GettingUpFromGround 2",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 16
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "GettingUpFromGround 3",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 40
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Collapsing 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (OnGround)": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "OnGround 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        },
+        "4": {
+          "Idle (Battle 1)": [
+            {
+              "Frame": "Idle (Battle) 1",
+              "Duration": 4
+            },
+            {
+              "Frame": "Idle (Battle) 2",
+              "Duration": 4
+            },
+            {
+              "Frame": "Idle (Battle) 3",
+              "Duration": 4
+            },
+            {
+              "Frame": "Idle (Battle) 2",
+              "Duration": 4
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "Idle (Battle 2)": [
+            {
+              "Frame": {
+                "SSE": {
+                  "Frame": "Idle (Battle) 4",
+                  "Direction": "SSE"
+                },
+                "ESE": {
+                  "Frame": "Idle (Battle) 1",
+                  "Direction": "ESE"
+                },
+                "ENE": {
+                  "Frame": "Idle (Battle) 1",
+                  "Direction": "ENE"
+                },
+                "NNE": {
+                  "Frame": "Idle (Battle) 1",
+                  "Direction": "NNE"
+                }
+              },
+              "Duration": 4
+            },
+            {
+              "Frame": {
+                "SSE": {
+                  "Frame": "Idle (Battle) 5",
+                  "Direction": "SSE"
+                },
+                "ESE": {
+                  "Frame": "Idle (Battle) 2",
+                  "Direction": "ESE"
+                },
+                "ENE": {
+                  "Frame": "Idle (Battle) 2",
+                  "Direction": "ENE"
+                },
+                "NNE": {
+                  "Frame": "Idle (Battle) 2",
+                  "Direction": "NNE"
+                }
+              },
+              "Duration": 4
+            },
+            {
+              "Frame": {
+                "SSE": {
+                  "Frame": "Idle (Battle) 6",
+                  "Direction": "SSE"
+                },
+                "ESE": {
+                  "Frame": "Idle (Battle) 3",
+                  "Direction": "ESE"
+                },
+                "ENE": {
+                  "Frame": "Idle (Battle) 3",
+                  "Direction": "ENE"
+                },
+                "NNE": {
+                  "Frame": "Idle (Battle) 3",
+                  "Direction": "NNE"
+                }
+              },
+              "Duration": 4
+            },
+            {
+              "Frame": {
+                "SSE": {
+                  "Frame": "Idle (Battle) 5",
+                  "Direction": "SSE"
+                },
+                "ESE": {
+                  "Frame": "Idle (Battle) 2",
+                  "Direction": "ESE"
+                },
+                "ENE": {
+                  "Frame": "Idle (Battle) 2",
+                  "Direction": "ENE"
+                },
+                "NNE": {
+                  "Frame": "Idle (Battle) 2",
+                  "Direction": "NNE"
+                }
+              },
+              "Duration": 4
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "Idle (Field)": [
+            {
+              "Frame": "Idle (Field) 1",
+              "Duration": 4
+            },
+            {
+              "Frame": "Idle (Field) 2",
+              "Duration": 4
+            },
+            {
+              "Frame": "Idle (Field) 3",
+              "Duration": 4
+            },
+            {
+              "Frame": "Idle (Field) 2",
+              "Duration": 4
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "Nodding": [
+            {
+              "Frame": "Idle (Field) 1",
+              "Duration": 4
+            },
+            {
+              "Frame": "Nodding 1",
+              "Duration": 4
+            },
+            {
+              "Frame": "Nodding 2",
+              "Duration": 4
+            },
+            {
+              "Frame": "Nodding 1",
+              "Duration": 4
+            },
+            {
+              "Command": "GotoAnimation",
+              "Parameter": 1
+            }
+          ],
+          "ShakingHead": [
+            {
+              "Frame": "Idle (Field) 1",
+              "Duration": 2
+            },
+            {
+              "Frame": "ShakingHead 1",
+              "Duration": 4
+            },
+            {
+              "Frame": "Idle (Field) 1",
+              "Duration": 4
+            },
+            {
+              "Frame": "ShakingHead 2",
+              "Duration": 4
+            },
+            {
+              "Frame": "Idle (Field) 1",
+              "Duration": 4
+            },
+            {
+              "Frame": "ShakingHead 1",
+              "Duration": 4
+            },
+            {
+              "Frame": "Idle (Field) 1",
+              "Duration": 4
+            },
+            {
+              "Frame": "ShakingHead 2",
+              "Duration": 4
+            },
+            {
+              "Command": "GotoAnimation",
+              "Parameter": 1
+            }
+          ],
+          "StillFrame (Battle 1)": [
+            {
+              "Frame": "Idle (Battle) 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (Battle 2)": [
+            {
+              "Frame": {
+                "SSE": {
+                  "Frame": "Idle (Battle) 4",
+                  "Direction": "SSE"
+                },
+                "ESE": {
+                  "Frame": "Idle (Battle) 1",
+                  "Direction": "ESE"
+                },
+                "ENE": {
+                  "Frame": "Idle (Battle) 1",
+                  "Direction": "ENE"
+                },
+                "NNE": {
+                  "Frame": "Idle (Battle) 1",
+                  "Direction": "NNE"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (Walking)": [
+            {
+              "Frame": "Walking 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "Walking": [
+            {
+              "Frame": "Walking 1",
+              "Duration": 5
+            },
+            {
+              "Frame": "Idle (Field) 1",
+              "Duration": 5
+            },
+            {
+              "Frame": "Walking 2",
+              "Duration": 5
+            },
+            {
+              "Frame": "Walking 3",
+              "Duration": 5
+            },
+            {
+              "Frame": "Idle (Field) 1",
+              "Duration": 5
+            },
+            {
+              "Frame": "Walking 4",
+              "Duration": 5
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

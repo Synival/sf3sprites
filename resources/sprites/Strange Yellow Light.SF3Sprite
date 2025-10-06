@@ -1,0 +1,34 @@
+{
+  "Name": "Strange Yellow Light",
+  "Width": 8,
+  "Height": 8,
+  "Spritesheets": {
+    "8x8": {
+      "SpriteID": 402,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 48,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Sparkle 1": {
+          "Directions": 1,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "StillFrame (Sparkle)": [
+            {
+              "Frame": "Sparkle 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

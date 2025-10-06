@@ -1,0 +1,66 @@
+{
+  "Name": "Rogan (Alt)",
+  "Width": 40,
+  "Height": 40,
+  "Spritesheets": {
+    "40x40": {
+      "SpriteID": 378,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0299988,
+      "FrameGroups": {
+        "Idle 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        },
+        "Idle 2": {
+          "Directions": 4,
+          "SpritesheetX": 40,
+          "SpritesheetY": 0
+        },
+        "Idle 3": {
+          "Directions": 4,
+          "SpritesheetX": 80,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "Idle": [
+            {
+              "Frame": "Idle 1",
+              "Duration": 5
+            },
+            {
+              "Frame": "Idle 2",
+              "Duration": 5
+            },
+            {
+              "Frame": "Idle 3",
+              "Duration": 5
+            },
+            {
+              "Frame": "Idle 2",
+              "Duration": 5
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame": [
+            {
+              "Frame": "Idle 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Name": "Bomb",
+  "Width": 16,
+  "Height": 16,
+  "Spritesheets": {
+    "16x16": {
+      "SpriteID": 394,
+      "VerticalOffset": 0,
+      "Unknown0x08": 8,
+      "CollisionSize": 16,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Bomb 1": {
+          "Directions": 1,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "StillFrame (Bomb)": [
+            {
+              "Frame": "Bomb 1",
+              "Duration": 1
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

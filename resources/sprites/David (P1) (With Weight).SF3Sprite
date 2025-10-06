@@ -1,0 +1,66 @@
+{
+  "Name": "David (P1) (With Weight)",
+  "Width": 40,
+  "Height": 40,
+  "Spritesheets": {
+    "40x40": {
+      "SpriteID": 29,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "LiftingWeight 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        },
+        "LiftingWeight 2": {
+          "Directions": 4,
+          "SpritesheetX": 40,
+          "SpritesheetY": 0
+        },
+        "LiftingWeight 3": {
+          "Directions": 4,
+          "SpritesheetX": 80,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "LiftingWeight": [
+            {
+              "Frame": "LiftingWeight 1",
+              "Duration": 20
+            },
+            {
+              "Frame": "LiftingWeight 2",
+              "Duration": 4
+            },
+            {
+              "Frame": "LiftingWeight 3",
+              "Duration": 10
+            },
+            {
+              "Frame": "LiftingWeight 2",
+              "Duration": 3
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame": [
+            {
+              "Frame": "LiftingWeight 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

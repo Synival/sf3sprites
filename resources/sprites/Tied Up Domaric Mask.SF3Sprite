@@ -1,0 +1,40 @@
+{
+  "Name": "Tied Up Domaric Mask",
+  "Width": 40,
+  "Height": 40,
+  "Spritesheets": {
+    "40x40": {
+      "SpriteID": 111,
+      "VerticalOffset": 0,
+      "Unknown0x08": 0,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Mask 1": {
+          "SSE": {
+            "SpritesheetX": 0,
+            "SpritesheetY": 0
+          }
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "StillFrame (Mask)": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Mask 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

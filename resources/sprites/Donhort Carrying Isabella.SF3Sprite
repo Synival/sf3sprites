@@ -1,0 +1,131 @@
+{
+  "Name": "Donhort Carrying Isabella",
+  "Width": 48,
+  "Height": 48,
+  "Spritesheets": {
+    "48x48": {
+      "SpriteID": 200,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0299988,
+      "FrameGroups": {
+        "Idle 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        },
+        "Walking 1": {
+          "NNE": {
+            "SpritesheetX": 48,
+            "SpritesheetY": 144
+          }
+        },
+        "Walking 2": {
+          "NNE": {
+            "SpritesheetX": 96,
+            "SpritesheetY": 144
+          }
+        },
+        "Walking 3": {
+          "NNE": {
+            "SpritesheetX": 144,
+            "SpritesheetY": 144
+          }
+        },
+        "Walking 4": {
+          "NNE": {
+            "SpritesheetX": 192,
+            "SpritesheetY": 144
+          }
+        },
+        "Walking 5": {
+          "NNE": {
+            "SpritesheetX": 240,
+            "SpritesheetY": 144
+          }
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "StillFrame (Idle, Repeat)": [
+            {
+              "Frame": "Idle 1",
+              "Duration": 10
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Idle)": [
+            {
+              "Frame": "Idle 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        },
+        "OneFlippable": {
+          "Walking (1 Direction)": [
+            {
+              "Command": "SetDirectionCount",
+              "Parameter": 17
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Walking 1",
+                  "Direction": "NNE"
+                }
+              },
+              "Duration": 4
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Walking 2",
+                  "Direction": "NNE"
+                }
+              },
+              "Duration": 4
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Walking 3",
+                  "Direction": "NNE"
+                }
+              },
+              "Duration": 4
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Walking 4",
+                  "Direction": "NNE"
+                }
+              },
+              "Duration": 4
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Walking 5",
+                  "Direction": "NNE"
+                }
+              },
+              "Duration": 4
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

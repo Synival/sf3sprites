@@ -1,0 +1,69 @@
+{
+  "Name": "Old Man Bathing in Hot Springs",
+  "Width": 40,
+  "Height": 40,
+  "Spritesheets": {
+    "40x40": {
+      "SpriteID": 73,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "OccasionallyLookingUp 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0,
+          "Coding": "Ignore"
+        },
+        "OccasionallyLookingUp 2": {
+          "Directions": 4,
+          "SpritesheetX": 40,
+          "SpritesheetY": 0,
+          "Coding": "Ignore"
+        },
+        "OccasionallyLookingUp 3": {
+          "Directions": 4,
+          "SpritesheetX": 80,
+          "SpritesheetY": 0,
+          "Coding": "Ignore"
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "OccasionallyLookingUp": [
+            {
+              "Frame": "OccasionallyLookingUp 1",
+              "Duration": 150
+            },
+            {
+              "Frame": "OccasionallyLookingUp 2",
+              "Duration": 3
+            },
+            {
+              "Frame": "OccasionallyLookingUp 3",
+              "Duration": 60
+            },
+            {
+              "Frame": "OccasionallyLookingUp 2",
+              "Duration": 3
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame": [
+            {
+              "Frame": "OccasionallyLookingUp 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

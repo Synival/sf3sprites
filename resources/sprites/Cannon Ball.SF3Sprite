@@ -1,0 +1,54 @@
+{
+  "Name": "Cannon Ball",
+  "Width": 48,
+  "Height": 48,
+  "Spritesheets": {
+    "48x48": {
+      "SpriteID": 395,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 48,
+      "Scale": 0.5,
+      "FrameGroups": {
+        "CannonBall 1": {
+          "Directions": 1,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "StillFrame (CannonBall, Change to 1)": [
+            {
+              "Frame": "CannonBall 1",
+              "Duration": 10
+            },
+            {
+              "Command": "GotoAnimation",
+              "Parameter": 1
+            }
+          ],
+          "StillFrame (CannonBall, Repeat)": [
+            {
+              "Frame": "CannonBall 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (CannonBall)": [
+            {
+              "Frame": "CannonBall 1",
+              "Duration": 10
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

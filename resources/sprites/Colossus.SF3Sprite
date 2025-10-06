@@ -1,0 +1,130 @@
+{
+  "Name": "Colossus",
+  "Width": 40,
+  "Height": 40,
+  "Spritesheets": {
+    "40x40": {
+      "SpriteID": 236,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Hovering 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        },
+        "Hovering 2": {
+          "Directions": 4,
+          "SpritesheetX": 40,
+          "SpritesheetY": 0
+        },
+        "Hovering 3": {
+          "Directions": 4,
+          "SpritesheetX": 80,
+          "SpritesheetY": 0
+        },
+        "Hovering 4": {
+          "Directions": 4,
+          "SpritesheetX": 120,
+          "SpritesheetY": 0
+        },
+        "Hovering 5": {
+          "Directions": 4,
+          "SpritesheetX": 160,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "Hovering (Faster)": [
+            {
+              "Frame": "Hovering 1",
+              "Duration": 6
+            },
+            {
+              "Frame": "Hovering 2",
+              "Duration": 4
+            },
+            {
+              "Frame": "Hovering 3",
+              "Duration": 4
+            },
+            {
+              "Frame": "Hovering 4",
+              "Duration": 4
+            },
+            {
+              "Frame": "Hovering 5",
+              "Duration": 4
+            },
+            {
+              "Frame": "Hovering 4",
+              "Duration": 4
+            },
+            {
+              "Frame": "Hovering 3",
+              "Duration": 4
+            },
+            {
+              "Frame": "Hovering 2",
+              "Duration": 4
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "Hovering (Slower)": [
+            {
+              "Frame": "Hovering 1",
+              "Duration": 5
+            },
+            {
+              "Frame": "Hovering 2",
+              "Duration": 5
+            },
+            {
+              "Frame": "Hovering 3",
+              "Duration": 5
+            },
+            {
+              "Frame": "Hovering 4",
+              "Duration": 5
+            },
+            {
+              "Frame": "Hovering 5",
+              "Duration": 5
+            },
+            {
+              "Frame": "Hovering 4",
+              "Duration": 5
+            },
+            {
+              "Frame": "Hovering 3",
+              "Duration": 5
+            },
+            {
+              "Frame": "Hovering 2",
+              "Duration": 5
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame": [
+            {
+              "Frame": "Hovering 3",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "Name": "Julian (P1) (Big)",
+  "Width": 64,
+  "Height": 64,
+  "Spritesheets": {
+    "64x64": {
+      "SpriteID": 203,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 0.6199951,
+      "FrameGroups": {
+        "Idle 1": {
+          "NNE": {
+            "SpritesheetX": 0,
+            "SpritesheetY": 0
+          }
+        },
+        "Idle 2": {
+          "NNE": {
+            "SpritesheetX": 64,
+            "SpritesheetY": 0
+          }
+        },
+        "Idle 3": {
+          "NNE": {
+            "SpritesheetX": 128,
+            "SpritesheetY": 0
+          }
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "Idle": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Idle 1",
+                  "Direction": "NNE"
+                }
+              },
+              "Duration": 6
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Idle 2",
+                  "Direction": "NNE"
+                }
+              },
+              "Duration": 4
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Idle 3",
+                  "Direction": "NNE"
+                }
+              },
+              "Duration": 4
+            },
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Idle 2",
+                  "Direction": "NNE"
+                }
+              },
+              "Duration": 4
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Idle 1",
+                  "Direction": "NNE"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

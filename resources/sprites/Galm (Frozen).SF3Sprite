@@ -1,0 +1,140 @@
+{
+  "Name": "Galm (Frozen)",
+  "Width": 48,
+  "Height": 56,
+  "Spritesheets": {
+    "48x56": {
+      "SpriteID": 155,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Freezing 1": {
+          "SSE": {
+            "SpritesheetX": 0,
+            "SpritesheetY": 0
+          }
+        },
+        "Freezing 2": {
+          "SSE": {
+            "SpritesheetX": 48,
+            "SpritesheetY": 0
+          }
+        },
+        "Freezing 3": {
+          "SSE": {
+            "SpritesheetX": 96,
+            "SpritesheetY": 0
+          }
+        },
+        "Ice Cracking 1": {
+          "SSE": {
+            "SpritesheetX": 144,
+            "SpritesheetY": 0
+          }
+        },
+        "Ice Cracking 2": {
+          "SSE": {
+            "SpritesheetX": 192,
+            "SpritesheetY": 0
+          }
+        },
+        "Ice Cracking 3": {
+          "SSE": {
+            "SpritesheetX": 240,
+            "SpritesheetY": 0
+          }
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "StillFrame (Freezing 1)": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Freezing 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (Freezing 2)": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Freezing 2",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (Freezing 3)": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Freezing 3",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (Ice Cracking 1)": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Ice Cracking 1",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (Ice Cracking 2)": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Ice Cracking 2",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (Ice Cracking 3)": [
+            {
+              "Frame": {
+                "First": {
+                  "Frame": "Ice Cracking 3",
+                  "Direction": "SSE"
+                }
+              },
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

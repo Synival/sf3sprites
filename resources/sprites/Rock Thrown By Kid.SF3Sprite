@@ -1,0 +1,52 @@
+{
+  "Name": "Rock Thrown By Kid",
+  "Width": 32,
+  "Height": 32,
+  "Spritesheets": {
+    "32x32": {
+      "SpriteID": 60,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Rock 1": {
+          "Directions": 1,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "OneFlippable": {
+          "StillFrame (Rock, Repeat)": [
+            {
+              "Command": "SetDirectionCount",
+              "Parameter": 17
+            },
+            {
+              "Frame": "Rock 1",
+              "Duration": 5
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Rock)": [
+            {
+              "Command": "SetDirectionCount",
+              "Parameter": 17
+            },
+            {
+              "Frame": "Rock 1",
+              "Duration": 5
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

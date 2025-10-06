@@ -1,0 +1,76 @@
+{
+  "Name": "Explosion2",
+  "Width": 48,
+  "Height": 48,
+  "Spritesheets": {
+    "48x48": {
+      "SpriteID": 300,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 48,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Exploding 1": {
+          "Directions": 1,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Exploding 2": {
+          "Directions": 1,
+          "SpritesheetX": 48,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Exploding 3": {
+          "Directions": 1,
+          "SpritesheetX": 96,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Exploding 4": {
+          "Directions": 1,
+          "SpritesheetX": 144,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Exploding 5": {
+          "Directions": 1,
+          "SpritesheetX": 192,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "Exploding (Very Fast)": [
+            {
+              "Frame": "Exploding 1",
+              "Duration": 1
+            },
+            {
+              "Frame": "Exploding 2",
+              "Duration": 1
+            },
+            {
+              "Frame": "Exploding 3",
+              "Duration": 1
+            },
+            {
+              "Frame": "Exploding 4",
+              "Duration": 1
+            },
+            {
+              "Frame": "Exploding 5",
+              "Duration": 1
+            },
+            {
+              "Command": "GotoAnimation",
+              "Parameter": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

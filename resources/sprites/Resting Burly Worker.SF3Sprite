@@ -1,0 +1,44 @@
+{
+  "Name": "Resting Burly Worker",
+  "Width": 48,
+  "Height": 40,
+  "Spritesheets": {
+    "48x40": {
+      "SpriteID": 106,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Idle (Resting) 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "StillFrame (Resting, Repeat)": [
+            {
+              "Frame": "Idle (Resting) 1",
+              "Duration": 10
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Resting)": [
+            {
+              "Frame": "Idle (Resting) 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

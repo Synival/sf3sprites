@@ -1,0 +1,202 @@
+{
+  "Name": "Transparency",
+  "Width": 48,
+  "Height": 48,
+  "Spritesheets": {
+    "8x8": {
+      "SpriteID": 287,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Alt 1": {
+          "Directions": 1,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Black+White 1": {
+          "Directions": 1,
+          "SpritesheetX": 8,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "StillFrame (Alt)": [
+            {
+              "Frame": "Alt 1",
+              "Duration": 1
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (Black, Repeat)": [
+            {
+              "Frame": "Alt 1",
+              "Duration": 100
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Black+White, Change to 0)": [
+            {
+              "Frame": "Black+White 1",
+              "Duration": 0
+            },
+            {
+              "Command": "GotoAnimation",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Black+White, Repeat, Duration 0)": [
+            {
+              "Frame": "Black+White 1",
+              "Duration": 0
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Black+White)": [
+            {
+              "Frame": "Black+White 1",
+              "Duration": 0
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    },
+    "16x16": {
+      "SpriteID": 400,
+      "VerticalOffset": 0,
+      "Unknown0x08": 8,
+      "CollisionSize": 16,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Black+White 1": {
+          "Directions": 1,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "StillFrame (Black+White)": [
+            {
+              "Frame": "Black+White 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    },
+    "16x32": {
+      "SpriteID": 399,
+      "VerticalOffset": 0,
+      "Unknown0x08": 8,
+      "CollisionSize": 16,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Black+White 1": {
+          "Directions": 1,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "StillFrame (Black+White)": [
+            {
+              "Frame": "Black+White 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    },
+    "48x48": {
+      "SpriteID": 390,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 48,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Black 1": {
+          "Directions": 1,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Black+White 1": {
+          "Directions": 1,
+          "SpritesheetX": 48,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "StillFrame (Black)": [
+            {
+              "Frame": "Black 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (Black+White)": [
+            {
+              "Frame": "Black+White 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    },
+    "64x64": {
+      "SpriteID": 403,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 48,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Black+White 1": {
+          "Directions": 1,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "StillFrame (Black+White)": [
+            {
+              "Frame": "Black+White 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "Name": "Penko Egg",
+  "Width": 40,
+  "Height": 32,
+  "Spritesheets": {
+    "40x32": {
+      "SpriteID": 14,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Full 1": {
+          "Directions": 1,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        },
+        "Half 1": {
+          "Directions": 4,
+          "SpritesheetX": 40,
+          "SpritesheetY": 32
+        },
+        "Open 1": {
+          "Directions": 4,
+          "SpritesheetX": 80,
+          "SpritesheetY": 32
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "StillFrame (Full, Repeat)": [
+            {
+              "Frame": "Full 1",
+              "Duration": 10
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Full)": [
+            {
+              "Frame": "Full 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        },
+        "4": {
+          "StillFrame (Half, Repeat)": [
+            {
+              "Frame": "Half 1",
+              "Duration": 10
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Half)": [
+            {
+              "Frame": "Half 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (Open, Repeat)": [
+            {
+              "Frame": "Open 1",
+              "Duration": 10
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Open)": [
+            {
+              "Frame": "Open 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

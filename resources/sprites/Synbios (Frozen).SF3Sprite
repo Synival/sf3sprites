@@ -1,0 +1,59 @@
+{
+  "Name": "Synbios (Frozen)",
+  "Width": 64,
+  "Height": 40,
+  "Spritesheets": {
+    "64x40": {
+      "SpriteID": 0,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 0.8999939,
+      "FrameGroups": {
+        "Frozen 1": {
+          "Directions": 6,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        },
+        "Unfrozen 1": {
+          "Directions": 6,
+          "SpritesheetX": 64,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "6": {
+          "StillFrame (Frozen, Repeat)": [
+            {
+              "Frame": "Frozen 1",
+              "Duration": 10
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Frozen)": [
+            {
+              "Frame": "Frozen 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (Unfrozen)": [
+            {
+              "Frame": "Unfrozen 1",
+              "Duration": 10
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "Name": "Woman Bathing in Hot Springs",
+  "Width": 40,
+  "Height": 40,
+  "Spritesheets": {
+    "40x40": {
+      "SpriteID": 268,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "OccasionallyTusslingHair 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0,
+          "Coding": "Ignore"
+        },
+        "OccasionallyTusslingHair 2": {
+          "Directions": 4,
+          "SpritesheetX": 40,
+          "SpritesheetY": 0,
+          "Coding": "Ignore"
+        },
+        "OccasionallyTusslingHair 3": {
+          "Directions": 4,
+          "SpritesheetX": 80,
+          "SpritesheetY": 0,
+          "Coding": "Ignore"
+        },
+        "OccasionallyTusslingHair 4": {
+          "Directions": 4,
+          "SpritesheetX": 120,
+          "SpritesheetY": 0,
+          "Coding": "Ignore"
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "OccasionallyTusslingHair": [
+            {
+              "Frame": "OccasionallyTusslingHair 1",
+              "Duration": 120
+            },
+            {
+              "Frame": "OccasionallyTusslingHair 2",
+              "Duration": 5
+            },
+            {
+              "Frame": "OccasionallyTusslingHair 3",
+              "Duration": 5
+            },
+            {
+              "Frame": "OccasionallyTusslingHair 4",
+              "Duration": 5
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame": [
+            {
+              "Frame": "OccasionallyTusslingHair 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "StillFrame (Repeat)": [
+            {
+              "Frame": "OccasionallyTusslingHair 1",
+              "Duration": 120
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "Name": "Woman w/ Brown Dress and White Apron Sweeping w/ Broom",
+  "Width": 40,
+  "Height": 40,
+  "Spritesheets": {
+    "40x40": {
+      "SpriteID": 517,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Sweeping 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        },
+        "Sweeping 2": {
+          "Directions": 4,
+          "SpritesheetX": 40,
+          "SpritesheetY": 0
+        },
+        "Sweeping 3": {
+          "Directions": 4,
+          "SpritesheetX": 80,
+          "SpritesheetY": 0
+        },
+        "Sweeping 4": {
+          "Directions": 4,
+          "SpritesheetX": 120,
+          "SpritesheetY": 0
+        },
+        "Sweeping 5": {
+          "Directions": 4,
+          "SpritesheetX": 160,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "Sweeping": [
+            {
+              "Frame": "Sweeping 1",
+              "Duration": 7
+            },
+            {
+              "Frame": "Sweeping 2",
+              "Duration": 7
+            },
+            {
+              "Frame": "Sweeping 3",
+              "Duration": 7
+            },
+            {
+              "Frame": "Sweeping 4",
+              "Duration": 7
+            },
+            {
+              "Frame": "Sweeping 5",
+              "Duration": 7
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

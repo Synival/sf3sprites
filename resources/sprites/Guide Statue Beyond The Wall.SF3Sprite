@@ -1,0 +1,44 @@
+{
+  "Name": "Guide Statue Beyond The Wall",
+  "Width": 56,
+  "Height": 56,
+  "Spritesheets": {
+    "56x56": {
+      "SpriteID": 569,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 0.7999878,
+      "FrameGroups": {
+        "Pointing 1": {
+          "Directions": 8,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "8": {
+          "StillFrame (Pointing, Repeat)": [
+            {
+              "Frame": "Pointing 1",
+              "Duration": 5
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Pointing)": [
+            {
+              "Frame": "Pointing 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

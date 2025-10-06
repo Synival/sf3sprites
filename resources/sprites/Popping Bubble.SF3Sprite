@@ -1,0 +1,85 @@
+{
+  "Name": "Popping Bubble",
+  "Width": 24,
+  "Height": 24,
+  "Spritesheets": {
+    "24x24": {
+      "SpriteID": 398,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 24,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Popping 1": {
+          "Directions": 1,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Popping 2": {
+          "Directions": 1,
+          "SpritesheetX": 24,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Popping 3": {
+          "Directions": 1,
+          "SpritesheetX": 48,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        },
+        "Popping 4": {
+          "Directions": 1,
+          "SpritesheetX": 72,
+          "SpritesheetY": 0,
+          "Coding": "Off"
+        }
+      },
+      "AnimationByDirections": {
+        "OneNoFlip": {
+          "Popping": [
+            {
+              "Frame": "Popping 1",
+              "Duration": 5
+            },
+            {
+              "Frame": "Popping 2",
+              "Duration": 3
+            },
+            {
+              "Frame": "Popping 3",
+              "Duration": 3
+            },
+            {
+              "Frame": "Popping 4",
+              "Duration": 10
+            },
+            {
+              "Command": "GotoAnimation",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Bubble)": [
+            {
+              "Frame": "Popping 1",
+              "Duration": 5
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (Transparent)": [
+            {
+              "Frame": "Popping 4",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "Name": "Old Man",
+  "Width": 40,
+  "Height": 40,
+  "Spritesheets": {
+    "40x40": {
+      "SpriteID": 73,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "Walking 1": {
+          "Directions": 5,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        },
+        "Walking 2": {
+          "Directions": 5,
+          "SpritesheetX": 40,
+          "SpritesheetY": 0
+        },
+        "Walking 3": {
+          "Directions": 5,
+          "SpritesheetX": 80,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "5": {
+          "StillFrame": [
+            {
+              "Frame": "Walking 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ],
+          "Walking": [
+            {
+              "Frame": "Walking 1",
+              "Duration": 5
+            },
+            {
+              "Frame": "Walking 2",
+              "Duration": 5
+            },
+            {
+              "Frame": "Walking 3",
+              "Duration": 5
+            },
+            {
+              "Frame": "Walking 2",
+              "Duration": 5
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ]
+        }
+      }
+    },
+    "48x32": {
+      "SpriteID": 73,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "InDespair 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        },
+        "InDespair 2": {
+          "Directions": 4,
+          "SpritesheetX": 48,
+          "SpritesheetY": 0
+        },
+        "InDespair 3": {
+          "Directions": 4,
+          "SpritesheetX": 96,
+          "SpritesheetY": 0
+        },
+        "InDespair 4": {
+          "Directions": 4,
+          "SpritesheetX": 144,
+          "SpritesheetY": 0
+        },
+        "InDespair 5": {
+          "Directions": 4,
+          "SpritesheetX": 192,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "InDespair": [
+            {
+              "Frame": "InDespair 1",
+              "Duration": 5
+            },
+            {
+              "Frame": "InDespair 2",
+              "Duration": 5
+            },
+            {
+              "Frame": "InDespair 1",
+              "Duration": 5
+            },
+            {
+              "Frame": "InDespair 3",
+              "Duration": 5
+            },
+            {
+              "Frame": "InDespair 1",
+              "Duration": 5
+            },
+            {
+              "Frame": "InDespair 2",
+              "Duration": 5
+            },
+            {
+              "Frame": "InDespair 1",
+              "Duration": 5
+            },
+            {
+              "Frame": "InDespair 3",
+              "Duration": 5
+            },
+            {
+              "Frame": "InDespair 1",
+              "Duration": 5
+            },
+            {
+              "Frame": "InDespair 4",
+              "Duration": 10
+            },
+            {
+              "Frame": "InDespair 5",
+              "Duration": 30
+            },
+            {
+              "Frame": "InDespair 1",
+              "Duration": 5
+            },
+            {
+              "Frame": "InDespair 5",
+              "Duration": 10
+            },
+            {
+              "Frame": "InDespair 1",
+              "Duration": 35
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (In Despair)": [
+            {
+              "Frame": "InDespair 1",
+              "Duration": 5
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    },
+    "48x40": {
+      "SpriteID": 73,
+      "VerticalOffset": 0,
+      "Unknown0x08": 20,
+      "CollisionSize": 40,
+      "Scale": 1.0,
+      "FrameGroups": {
+        "OnGround 1": {
+          "Directions": 4,
+          "SpritesheetX": 0,
+          "SpritesheetY": 0
+        }
+      },
+      "AnimationByDirections": {
+        "4": {
+          "StillFrame (OnGround, Repeat)": [
+            {
+              "Frame": "OnGround 1",
+              "Duration": 10
+            },
+            {
+              "Command": "GotoCommandOffset",
+              "Parameter": 0
+            }
+          ],
+          "StillFrame (OnGround)": [
+            {
+              "Frame": "OnGround 1",
+              "Duration": 10
+            },
+            {
+              "Command": "Stop"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
