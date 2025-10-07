@@ -12,10 +12,10 @@ DIR_PREMIUM_DISK="game-files/premium-disk"
 
 # SF3 original file locations (as Windows path)
 # (the same as Linux paths by default)
-DIR_SCENARIO1_WIN=$DIR_SCENARIO1_WIN
-DIR_SCENARIO2_WIN=$DIR_SCENARIO2_WIN
-DIR_SCENARIO3_WIN=$DIR_SCENARIO3_WIN
-DIR_PREMIUM_DISK_WIN=$DIR_PREMIUM_DISK_WIN
+DIR_SCENARIO1_WIN=$DIR_SCENARIO1
+DIR_SCENARIO2_WIN=$DIR_SCENARIO2
+DIR_SCENARIO3_WIN=$DIR_SCENARIO3
+DIR_PREMIUM_DISK_WIN=$DIR_PREMIUM_DISK
 
 # =====================================================================================================================
 # Internals
