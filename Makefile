@@ -71,3 +71,7 @@ clean:
 	@echo Removing *.CHR, *.CHP from $(OUT_PATH)...
 	@rm -f $(OBJ)
 	@echo Done.
+
+update-hash-lookups:
+	@$(CHRTOOL) $(CHRTOOL_PARAMS) update-hash-lookups --replace
+	@echo Done.
