@@ -17,6 +17,10 @@ DIR_SCENARIO2_WIN=$DIR_SCENARIO2
 DIR_SCENARIO3_WIN=$DIR_SCENARIO3
 DIR_PREMIUM_DISK_WIN=$DIR_PREMIUM_DISK
 
+# Universal parameters for chptableupdater.exe
+CHPTABLEUPDATER=./chptableupdater.exe
+CHPTABLEUPDATER_PARAMS=
+
 # =====================================================================================================================
 # Internals
 # =====================================================================================================================
@@ -71,5 +75,8 @@ DIR_ORIG=$DIR_PREMIUM_DISK
 DIR_ORIG_WIN=$DIR_PREMIUM_DISK_WIN
 DIR_DFRS=dfrs/premium-disk
 make_dfrs
+
+# Make table updates!
+$CHPTABLEUPDATER $CHPTABLEUPDATER_PARAMS
 
 echo "Done."

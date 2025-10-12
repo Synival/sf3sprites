@@ -11,6 +11,7 @@ DIR_PREMIUM_DISK_WIN="game-files/premium-disk"
 # Universal parameters for chrtool.exe
 CHRTOOL = ./chrtool.exe
 CHRTOOL_PARAMS = --sprite-dir=resources/sprites --spritesheet-dir=resources/spritesheets --frame-hash-lookups-file=resources/FrameHashLookups.json
+CHRTOOL_COMPILE_PARAMS=--optimize-sectors
 
 # =====================================================================================================================
 # Internals
@@ -41,16 +42,16 @@ all: $(OBJ)
 	@echo Done.
 
 scenario1:
-	@$(CHRTOOL) $(CHRTOOL_PARAMS) compile $(SRC_SCENARIO1) --output-dir=$(OUT_PATH)/scenario1 # TODO: --padding-from-dir
+	@$(CHRTOOL) $(CHRTOOL_PARAMS) compile $(CHRTOOL_COMPILE_PARAMS) $(SRC_SCENARIO1) --output-dir=$(OUT_PATH)/scenario1 # TODO: --padding-from-dir
 
 scenario2:
-	@$(CHRTOOL) $(CHRTOOL_PARAMS) compile $(SRC_SCENARIO2) --output-dir=$(OUT_PATH)/scenario2 # TODO: --padding-from-dir
+	@$(CHRTOOL) $(CHRTOOL_PARAMS) compile $(CHRTOOL_COMPILE_PARAMS) $(SRC_SCENARIO2) --output-dir=$(OUT_PATH)/scenario2 # TODO: --padding-from-dir
 
 scenario3:
-	@$(CHRTOOL) $(CHRTOOL_PARAMS) compile $(SRC_SCENARIO3) --output-dir=$(OUT_PATH)/scenario3 # TODO: --padding-from-dir
+	@$(CHRTOOL) $(CHRTOOL_PARAMS) compile $(CHRTOOL_COMPILE_PARAMS) $(SRC_SCENARIO3) --output-dir=$(OUT_PATH)/scenario3 # TODO: --padding-from-dir
 
 premium-disk:
-	@$(CHRTOOL) $(CHRTOOL_PARAMS) compile $(SRC_PREMIUM_DISK) --output-dir=$(OUT_PATH)/premium-disk # TODO: --padding-from-dir
+	@$(CHRTOOL) $(CHRTOOL_PARAMS) compile $(CHRTOOL_COMPILE_PARAMS) $(SRC_PREMIUM_DISK) --output-dir=$(OUT_PATH)/premium-disk # TODO: --padding-from-dir
 
 recompile: scenario1 scenario2 scenario3 premium-disk
 	@echo Done.
