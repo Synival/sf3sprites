@@ -57,7 +57,7 @@ recompile: scenario1 scenario2 scenario3 premium-disk
 	@echo Done.
 
 $(OUT_PATH)/%.CHR: $(SRC_PATH)/%.SF3CHR
-	@$(CHRTOOL) $(CHRTOOL_PARAMS) compile $< --output=$@
+	@$(CHRTOOL) $(CHRTOOL_PARAMS) compile $(CHRTOOL_COMPILE_PARAMS) $< --output=$@
 
 $(OUT_PATH)/%.CHP: $(SRC_PATH)/%.SF3CHP
 	$(eval ORIG_FILE=$(shell echo $@ \
@@ -66,7 +66,7 @@ $(OUT_PATH)/%.CHP: $(SRC_PATH)/%.SF3CHP
 		| sed "s/^$(OUT_PATH)\/scenario3\//$(DIR_SCENARIO3_WIN_SED)\//" \
 		| sed "s/^$(OUT_PATH)\/premium-disk\//$(DIR_PREMIUM_DISK_WIN_SED)\//") \
 	)
-	@$(CHRTOOL) $(CHRTOOL_PARAMS) compile $< --output=$@ --padding-from=$(ORIG_FILE)
+	@$(CHRTOOL) $(CHRTOOL_PARAMS) compile $(CHRTOOL_COMPILE_PARAMS) $< --output=$@ --padding-from=$(ORIG_FILE)
 
 clean:
 	@echo Removing *.CHR, *.CHP from $(OUT_PATH)...
