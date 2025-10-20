@@ -10,14 +10,14 @@
       "CollisionSize": 40,
       "Scale": 1.0299988,
       "FrameGroups": {
-        "Idle (Battle) 1": { "Directions": 6, "SpritesheetX": 0, "SpritesheetY": 0 },
-        "Idle (Battle) 2": { "Directions": 6, "SpritesheetX": 40, "SpritesheetY": 0 },
-        "Idle (Battle) 3": { "Directions": 6, "SpritesheetX": 80, "SpritesheetY": 0 },
-        "Walking 1": { "Directions": 6, "SpritesheetX": 120, "SpritesheetY": 0 },
-        "Walking 2": { "Directions": 6, "SpritesheetX": 160, "SpritesheetY": 0 },
-        "Walking 3": { "Directions": 6, "SpritesheetX": 200, "SpritesheetY": 0 },
-        "Walking 4": { "Directions": 6, "SpritesheetX": 240, "SpritesheetY": 0 },
-        "Walking 5": { "Directions": 6, "SpritesheetX": 280, "SpritesheetY": 0 }
+        "Idle (Battle) 1": { "Directions": 6, "SpritesheetX": 0,   "SpritesheetY": 0 },
+        "Idle (Battle) 2": { "Directions": 6, "SpritesheetX": 40,  "SpritesheetY": 0 },
+        "Idle (Battle) 3": { "Directions": 6, "SpritesheetX": 80,  "SpritesheetY": 0 },
+        "Walking 1":       { "Directions": 6, "SpritesheetX": 120, "SpritesheetY": 0 },
+        "Walking 2":       { "Directions": 6, "SpritesheetX": 160, "SpritesheetY": 0 },
+        "Walking 3":       { "Directions": 6, "SpritesheetX": 200, "SpritesheetY": 0 },
+        "Walking 4":       { "Directions": 6, "SpritesheetX": 240, "SpritesheetY": 0 },
+        "Walking 5":       { "Directions": 6, "SpritesheetX": 280, "SpritesheetY": 0 }
       },
       "AnimationByDirections": {
         "4": {

@@ -10,9 +10,9 @@
       "CollisionSize": 40,
       "Scale": 1.0499878,
       "FrameGroups": {
-        "OnGround 1": { "Directions": 4, "SpritesheetX": 0, "SpritesheetY": 0 },
-        "Twitching (OnGround) 1": { "Directions": 4, "SpritesheetX": 48, "SpritesheetY": 0 },
-        "Twitching (OnGround) 2": { "Directions": 4, "SpritesheetX": 96, "SpritesheetY": 0 },
+        "OnGround 1":             { "Directions": 4, "SpritesheetX": 0,   "SpritesheetY": 0 },
+        "Twitching (OnGround) 1": { "Directions": 4, "SpritesheetX": 48,  "SpritesheetY": 0 },
+        "Twitching (OnGround) 2": { "Directions": 4, "SpritesheetX": 96,  "SpritesheetY": 0 },
         "Twitching (OnGround) 3": { "Directions": 4, "SpritesheetX": 144, "SpritesheetY": 0 }
       },
       "AnimationByDirections": {

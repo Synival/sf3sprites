@@ -10,9 +10,9 @@
       "CollisionSize": 40,
       "Scale": 1.0,
       "FrameGroups": {
-        "Idle 1": { "Directions": 4, "SpritesheetX": 0, "SpritesheetY": 0 },
-        "Idle 2": { "Directions": 4, "SpritesheetX": 40, "SpritesheetY": 0 },
-        "Idle 3": { "Directions": 4, "SpritesheetX": 80, "SpritesheetY": 0 },
+        "Idle 1":    { "Directions": 4, "SpritesheetX": 0,   "SpritesheetY": 0 },
+        "Idle 2":    { "Directions": 4, "SpritesheetX": 40,  "SpritesheetY": 0 },
+        "Idle 3":    { "Directions": 4, "SpritesheetX": 80,  "SpritesheetY": 0 },
         "Walking 1": { "Directions": 4, "SpritesheetX": 120, "SpritesheetY": 0 },
         "Walking 2": { "Directions": 4, "SpritesheetX": 160, "SpritesheetY": 0 },
         "Walking 3": { "Directions": 4, "SpritesheetX": 200, "SpritesheetY": 0 },
