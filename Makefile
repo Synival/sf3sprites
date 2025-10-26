@@ -76,3 +76,20 @@ clean:
 update-hash-lookups:
 	@$(CHRTOOL) $(CHRTOOL_PARAMS) update-hash-lookups --replace
 	@echo Done.
+
+depends:
+	@echo "Building Scenario 1 depends..."
+	@$(CHRTOOL) $(CHRTOOL_PARAMS) depends $(SRC_SCENARIO1) | sort > depends.txt
+	@echo "Building Scenario 2 depends..."
+	@$(CHRTOOL) $(CHRTOOL_PARAMS) depends $(SRC_SCENARIO2) | sort >> depends.txt
+	@echo "Building Scenario 3 depends..."
+	@$(CHRTOOL) $(CHRTOOL_PARAMS) depends $(SRC_SCENARIO3) | sort >> depends.txt
+	@echo "Building Premium Disk depends..."
+	@$(CHRTOOL) $(CHRTOOL_PARAMS) depends $(SRC_PREMIUM_DISK) | sort >> depends.txt
+	@$(eval FIRST_LINE := $(shell grep -n -m 1 "^# DEPENDS UNDER THIS LINE" Makefile | sed 's/\([0-9]*\).*/\1/'))
+	@head -n $(FIRST_LINE) Makefile > Makefile.2
+	@cat depends.txt | tr -d '\r' | sed "s/\.\///g" | sed "s/^${SRC_PATH}/${OUT_PATH}/g" >> Makefile.2
+	@rm depends.txt
+	@mv Makefile.2 Makefile
+
+# DEPENDS UNDER THIS LINE
